@@ -11,7 +11,7 @@ public class Rentcontroller {
 	@RequestMapping(value= "inside", method= RequestMethod.GET )
 	public String terming() {
 		System.out.println(" it will print");
-		System.out.println(" TIME DEMAND ");
+		
 		return "insidestory";
 	}
 	
